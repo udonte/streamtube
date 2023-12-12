@@ -27,7 +27,7 @@
 
 </script>
 
-<div class="bg-white py-2 flex flex-col px-1 fixed top-[60px]">
+<div class="bg-white py-2 hidden md:flex flex-col px-1 fixed top-[60px]">
  
     {#each nav as navItem}
     <a href="/" class="flex items-center justify-center flex-col gap-1 py-4 hover:bg-green-100 rounded-lg">
